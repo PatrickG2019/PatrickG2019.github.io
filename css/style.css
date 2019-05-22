@@ -1,0 +1,175 @@
+/* Set base styling on the body */
+body {
+	font: 100%/1.4 'century gothic', Verdana, sans-serif;
+	/*color: #333;*/
+  background-color: #b3d9ff;
+	margin: 0;
+	padding: 0;
+
+}
+
+/* Page header */
+h1 {
+	font:400 2em/1 'Times New Roman', cursive;
+	margin: 0;
+	padding: 20px 40px;
+	/*display: inline-block;*/
+	text-align: center;
+	color: black;
+}
+
+h2{
+    font:400 2em/1 'Times New Roman', cursive;
+  	margin: 0;
+  	padding: 20px 40px;
+  	/*display: inline-block;*/
+  	text-align: center;
+  	color: black;
+    background-color: #b3d9ff;
+}
+
+.container{
+  background-color: #b3d9ff;
+  float: none;
+}
+
+header {
+
+	width: 100%;
+	background-color: #1e1e1e;
+}
+
+/* Site navigation */
+nav {
+	/*float: right;
+  width: 80%;*/
+  text-align: center;
+
+
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav li {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+nav li a {
+	text-decoration: none;
+	font-weight: 700;
+	display: block;
+	padding: 1.5em 2em;
+	width: 100px;
+	text-align: center;
+}
+nav li a:link {
+	color: white;
+}
+nav li a:visited {
+	color: white;
+}
+nav li a:hover {
+	/*color: #ff7a51;*/
+}
+nav li a:active {
+	/*color: salmon;*/
+}
+#page1 li:nth-of-type(1) a,
+#page2 li:nth-of-type(2) a,
+#page3 li:nth-of-type(3) a,
+#page4 li:nth-of-type(4) a,
+#page5 li:nth-of-type(5) a
+{
+
+	color: #ff7a51;
+}
+
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+  float: left;
+  display: inline;
+
+}
+
+.container2{
+  position: relative;
+  top: 50px;
+  right: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Page footer */
+footer {
+	background-color: #1e1e1e;
+	clear: left;
+	margin-top: 40px;
+	padding: 40px 20px;
+  
+}
+footer p {
+	margin: 0;
+	font-size: 0.8em;
+	color: white;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+}
